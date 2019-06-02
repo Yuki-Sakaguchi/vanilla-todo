@@ -1,6 +1,6 @@
 /**
- * htmlEscape
- * @param {string} str 
+ * htmlのエスケープ
+ * @param {string} str
  */
 export function escapeSpecialChars (str) {
   return str.replace(/&/g, '&amp;')
